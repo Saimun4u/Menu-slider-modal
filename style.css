@@ -25,7 +25,13 @@ nav {
   width: 200px;
   height: 100vh;
   z-index: 100;
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
+}
+
+/* Show Nav */
+
+.show-nav {
+  transform: translateX(200px);
 }
 
 nav .logo {
