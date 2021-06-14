@@ -192,6 +192,6 @@ button:focus {
   }
 
   to {
-    opacity: 0.1;
+    opacity: 1;
   }
 }

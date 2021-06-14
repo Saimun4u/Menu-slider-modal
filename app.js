@@ -17,3 +17,7 @@ open.addEventListener('click', ()=> {
 close.addEventListener('click', ()=> {
     modal.classList.remove('show-modal');
 })
+
+//Click outside the modal to disable modal
+
+window.addEventListener('click', (e) => e.target === modal ? modal.classList.remove('show-modal') : false) 
